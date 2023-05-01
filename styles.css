@@ -1,0 +1,34 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.menu {
+  background-color: burlywood;
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: Impact, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.established {
+  font-style: italic;
+}
+
+hr {
+  background-color: brown;
+  height: 3px;
+  border-color: brown;
+}
