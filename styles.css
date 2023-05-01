@@ -21,6 +21,17 @@ h2 {
 
 h1 {
   text-transform: uppercase;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h2 + img {
+  display: inline-block;
+  margin-top: -25px;
 }
 
 .established {
@@ -35,6 +46,9 @@ hr {
 
 .item p {
   display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 18px;
 }
 
 .flavor {
@@ -45,4 +59,18 @@ hr {
 .price {
   width: 24%;
   text-align: right;
+}
+
+hr:nth-of-type(2) {
+  margin-top: 25px;
+}
+
+/*  FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+footer .address {
+  margin-bottom: 5px;
 }
