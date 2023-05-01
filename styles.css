@@ -74,3 +74,16 @@ footer {
 footer .address {
   margin-bottom: 5px;
 }
+
+footer a {
+  color: black;
+}
+
+footer a:visited {
+  color: black;
+}
+
+footer a:active,
+a:hover {
+  color: brown;
+}
