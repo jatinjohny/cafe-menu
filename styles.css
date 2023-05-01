@@ -32,3 +32,17 @@ hr {
   height: 3px;
   border-color: brown;
 }
+
+.item p {
+  display: inline-block;
+}
+
+.flavor {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 24%;
+  text-align: right;
+}
